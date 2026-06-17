@@ -4,8 +4,7 @@ import supabase from '../config/supabaseClient.js'
 
 const TEST_USERS = [
     { name: 'Test Patient', email: 'patient@test.com', password: 'password123', role: 'patient' },
-    { name: 'Test Doctor', email: 'doctor@test.com', password: 'password123', role: 'doctor' },
-    { name: 'Test Assistant', email: 'assistant@test.com', password: 'password123', role: 'assistant' },
+    { name: 'Doctor Saqlain', email: 'chsaqlain22@gmail.com', password: 'Sonuch@22', role: 'doctor' },
 ]
 
 const getEnvAdminUsers = () => {
