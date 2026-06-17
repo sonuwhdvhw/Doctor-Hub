@@ -137,3 +137,21 @@
 ::-webkit-scrollbar-thumb {
   @apply bg-slate-300 rounded-full hover:bg-slate-400;
 }
+
+/* Scroll Reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.reveal.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* gradient-text red version */
+.gradient-text {
+  @apply bg-gradient-to-r from-red-600 via-red-500 to-rose-400 bg-clip-text text-transparent;
+}
+
